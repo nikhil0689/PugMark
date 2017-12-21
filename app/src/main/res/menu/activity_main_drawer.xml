@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/emergency"
+            android:icon="@drawable/ic_warning_black_24px"
+            android:title="@string/emergency" />
+        <item
+            android:id="@+id/patrol"
+            android:icon="@drawable/ic_directions_walk_black_24px"
+            android:title="@string/patrol" />
+        <item
+            android:id="@+id/water_holes"
+            android:icon="@drawable/ic_pool_black_24px"
+            android:title="@string/waterhole_data" />
+        <item
+            android:id="@+id/gallery_id"
+            android:icon="@drawable/ic_image_black_24px"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_perm_identity_black_24px"
+            android:title="@string/log_out" />
+
+    </group>
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:scrollbars="horizontal">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="sdsu.cs.nikhil.pugmark.AddEmergencyActivity">
+
+        <TextView
+            android:id="@+id/add_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:text="@string/add_emergency_type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/emergency_type_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:ems="10"
+            android:hint="@string/add_here"
+            android:inputType="textCapWords"
+            android:padding="16dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+
+        <Button
+            android:id="@+id/submit_emergency"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorWhite"
+            android:text="@string/submit"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</ScrollView>

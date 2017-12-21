@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="8dp">
+    <ImageView
+        android:id="@+id/image_in_water_adapter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/pugmark"
+        android:contentDescription="@string/image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/water_hole_name_list"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/emptyString"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/level_list"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_updated"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/emptyString"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_time_list"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/updated_by"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="@string/emptyString"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_name_list"/>
+        </LinearLayout>
+
+     </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:background="@color/colorBackground"
+    android:scrollbars="horizontal">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="sdsu.cs.nikhil.pugmark.UpdateWaterHoleActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/update_waterhole_data" />
+
+    <EditText
+        android:id="@+id/update_text_waterhole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:textColor="@color/colorPrimary"
+        android:ems="10"
+        android:text="@string/add_here"
+        android:inputType="textCapWords"
+        android:padding="16dp"
+        tools:ignore="LabelFor" />
+
+    <Spinner
+        android:id="@+id/spinner_waterhole_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorButton"
+        android:layout_margin="32dp"
+        android:text="@string/update" />
+</LinearLayout>
+</ScrollView>

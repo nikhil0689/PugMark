@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "493845034352",
+    "firebase_url": "https://pugmark-1532d.firebaseio.com",
+    "project_id": "pugmark-1532d",
+    "storage_bucket": "pugmark-1532d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493845034352:android:9f91006cea953172",
+        "android_client_info": {
+          "package_name": "sdsu.cs.nikhil.pugmark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493845034352-he6lhanrm2rt12l4gfvs92qfm96afopo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sdsu.cs.nikhil.pugmark",
+            "certificate_hash": "eeac275ced3dfc7ec05526cabed271f32834196a"
+          }
+        },
+        {
+          "client_id": "493845034352-v7oshdk7b4i1hcuvi1cgji79csrotrks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2JfTA3WQOVaLaVau43e8EtCzOQaNdEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493845034352-v7oshdk7b4i1hcuvi1cgji79csrotrks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
